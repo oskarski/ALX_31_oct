@@ -1,0 +1,59 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+td {
+    border: 1px solid blue;
+}
+
+table {
+    background-color: #ddd;
+}
+
+th {
+    font-size: 1.25rem;
+    /* 16px * 1.25 = 20px   */
+}
+
+
+button[type="reset"] {
+    background: red;
+}
+
+
+#btn {
+    background: blue;
+}
+
+button {
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem;
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+.paragraph {
+    text-align: center;
+    
+    text-decoration: underline; /* none */
+    line-height: 2.5;
+    width: 75%;
+    /* max-width: 300px; */
+    margin: 4rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    max-width: 40rem;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    width: 50%;
+}

@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello ALX</title>
     <!-- <meta name="description" content="ALX to fajne kursy!"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        /*  TU byly wczesniej style */
+    </style>
 </head>
 <body>
     <!-- ctrl + / -->
@@ -18,13 +28,32 @@
         </nav>
     </header>
 
+    <button>Zapisz</button>
+    <button type="reset">Resetuj</button>
+    <button id="btn">Guzik</button>
+
+    <button id="btn-2" class="yellow">Text zolty</button>
+    <button id="btn-3" class="yellow">Text tez zolty</button>
+
+    <div class="row">
+        <div class="col">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente eaque sint totam consequatur, nemo nobis voluptatum fugit illo alias, ullam id minus corporis repellendus? Natus maiores labore tempore tenetur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente eaque sint totam consequatur, nemo nobis voluptatum fugit illo alias, ullam id minus corporis repellendus? Natus maiores labore tempore tenetur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente eaque sint totam consequatur, nemo nobis voluptatum fugit illo alias, ullam id minus corporis repellendus? Natus maiores labore tempore tenetur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sapiente eaque sint totam consequatur, nemo nobis voluptatum fugit illo alias, ullam id minus corporis repellendus? Natus maiores labore tempore tenetur.
+        </div>
+
+        <div class="col">Kolumna prawa</div>
+    </div>
+
     <!-- Glowana tresc -->
     <main>
         <!-- Jedna logiczna calosc ( produkt , wpis, artykul ) -->
         <article>
             <!-- lorem + tab -->
             <!-- paragraph -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam excepturi nesciunt officia similique, expedita, id esse sunt aspernatur voluptatem ullam cum sapiente possimus, in accusamus? Explicabo cum consequatur dolore.</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam excepturi nesciunt officia similique, expedita, id esse sunt aspernatur voluptatem ullam cum sapiente possimus, in accusamus? Explicabo cum consequatur dolore.</p>
+            <div class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam excepturi nesciunt officia similique, expedita, id esse sunt aspernatur voluptatem ullam cum sapiente possimus, in accusamus? Explicabo cum consequatur dolore.</div>
 
             <!-- sekcja pewnej calosci -->
             <section></section>
@@ -84,16 +113,16 @@
                 </ul>
             </details>
 
-            <table border="2">
+            <table style="border: 1px solid red;">
                 <thead>
                     <tr>
-                        <th>
+                        <th style="border: 1px solid green;">
                             Imie
                         </th>
-                        <th>
+                        <th style="border: 1px solid red;">
                             Wiek
                         </th>
-                        <th>
+                        <th style="border: 1px solid #010101;">
                             Wzrost
                         </th>
                     </tr>
@@ -102,10 +131,10 @@
                 <tbody>
                     <!-- Table row -->
                     <tr>
-                        <td>
+                        <td style="border: 1px solid rgb(0,0,0);">
                             Oskar
                         </td>
-                        <td>
+                        <td style="border: 1px solid rgba(0,0,0, 0.5);font-weight: bold;">
                             12
                         </td>
                         <td>
