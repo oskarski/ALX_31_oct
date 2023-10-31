@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="login-form" action="form.html" method="get">
+        <fieldset>
+            <legend>Dane logowania</legend>
+
+            <label for="login">Login</label>
+            <input id="login" name="username" type="text" value="123"/>
+
+            <input type="tel" placeholder="Tel">
+            <input type="number" min="2" max="8">
+            <input type="text" minlength="3">
+
+            <label for="pin">PIN: (4 digits)</label>
+            <input name="pin" type="text" pattern="26006\d{10}" required />
+
+    
+            <input name="password" type="password" placeholder="Haslo" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="check">Pozostaw mnie zalogowanym</label>
+            <input id="check" type="checkbox" name="keepMeSignedIn" value="true">
+        </fieldset>
+
+        
+        <fieldset>
+            <label for="r-yes">Konto sluzbowe TAK</label>
+            <input id="r-yes" type="radio" name="work" value="yes">
+
+            <label for="r-no">Konto sluzbowe NIE</label>
+            <input id="r-no" type="radio" name="work" value="no">
+        </fieldset>
+
+        <textarea name="body" cols="30" rows="10">123</textarea>
+
+        <select name="pokoj" id="">
+            <option value="" disabled  hidden>Wybierz opcje</option>
+            <option value="1">1 osob.</option>
+            <option value="2">2 osob.</option>
+        </select>
+
+
+        <button>Wyslij</button>
+        <button type="button">Nie wysylaj</button>
+        <button type="reset">Resetuj</button>
+
+        <button>Wyslij Dwa</button>
+        <input type="submit" value="Send">
+    </form>
+
+    <button form="login-form">Poza formem</button>
+
+    file:///C:/Users/kurs/Desktop/alx_kurs/HTML/form.html?username=123&password=456
+</body>
+</html>
