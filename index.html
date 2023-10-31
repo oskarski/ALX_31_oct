@@ -9,7 +9,7 @@
 <body>
     <!-- ctrl + / -->
     Hello ALX :)
-
+    <a href="#footer">Stopka</a>
     <header>
         ALX - Kursy
 
@@ -62,18 +62,110 @@
             <br />
             <!-- bold -->
             
-            <p>
+            <p style="border: 1px solid red">
                 Lorem <b>ipsum</b> dolor sit amet consectetur, adipisicing elit.
                 <hr/>
                 Sint quo placeat, reprehenderit voluptas rem nemo pariatur quibusdam repudiandae porro veniam exercitationem cupiditate ullam possimus sed ut in accusamus aut et.
             </p>
             
-            <img src="../GIT_02_bckp/images/logo.png" alt="Hamburger" />
+            <img  src="../GIT_02_bckp/images/logo.png" alt="Hamburger" />
+
+            <!-- anchor link -->
+            <a href="https://github.com/oskarski/HTML_02">GitHub</a>
+            <a title="Link do githuba" href="https://github.com/oskarski/HTML_02" target="_blank">GitHub</a>
+
+            <!-- Akordeon -->
+            <details open>
+                <summary>Spis Tresci</summary>
+
+                <ul>
+                    <li>Pierwszy</li>
+                    <li>Drugi</li>
+                </ul>
+            </details>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>
+                            Imie
+                        </th>
+                        <th>
+                            Wiek
+                        </th>
+                        <th>
+                            Wzrost
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- Table row -->
+                    <tr>
+                        <td>
+                            Oskar
+                        </td>
+                        <td>
+                            12
+                        </td>
+                        <td>
+                            123
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Maciek
+                        </td>
+                        <td>
+                            21
+                        </td>
+                        <td>
+                            213
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Maciek
+                        </td>
+                        <td colspan="2">
+                        
+                            1 komorka - 2 kolumny
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Maciek
+                        </td>
+                        <td>
+                            21
+                        </td>
+                        <td rowspan="2">
+                            213
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Maciek
+                        </td>
+                        <td>
+                            21
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
         </aside>
     </main>
 
     <!-- Stopka danej stresci -->
-    <footer>
+    <footer id="footer">
         ALX Academy Sp.zo
     </footer>
 </body>
